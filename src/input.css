@@ -3,30 +3,5 @@
 @tailwind utilities;
 
 
-.login-card{
-    @apply bg-white shadow-md max-w-lg;
-}
 
-@screen md{
-    .login-card{
-        @apply flex;
-    } 
-}
-
-
-.input{
-    @apply border shadow-inner px-3 py-2 text-gray-700 w-full ring-black;
-}
-
-.input:focus{
-    @apply shadow-md ring-black;
-}
-
-.btn{
-    @apply bg-blue-500 text-white px-4 py-2 rounded ;
-}
-
-.btn:hover{
-    @apply bg-blue-600;
-}
 
