@@ -2,11 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      transitionProperty: {
-        'left': 'left'
-      }
-    },
+    extend: { },
   },
   plugins: [],
 }
