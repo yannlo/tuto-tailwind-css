@@ -8,6 +8,7 @@ The liste of the step :
 
  - header           |✅
  - section index    |✅
- - section service  |
+ - section service  |✅
+ - section FAQ      |✅
  - section contact  |
  - footer           |
