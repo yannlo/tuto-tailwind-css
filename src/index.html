@@ -88,7 +88,7 @@
       </div>
     </section>
 
-    <section class="w-full h-full py-24 md:py-32 px-8 flex flex-col gap-0 items-center" id="faq">
+    <section class="w-full h-full py-24 md:py-32 px-5 flex flex-col gap-0 items-center" id="faq">
       <h2 class="text-4xl font-bold text-center uppercase mb-16">La FAQ</h2>
       <div class="w-full max-w-3xl px-6 py-2 bg-slate-800 text-white grid grid-cols-1  rounded-2xl ">
         <details class="border-b px-2 py-4 open:pb-6">
@@ -114,10 +114,63 @@
       </div>
     </section>
 
-    <section class="w-full min-h-screen bg-emerald-700 py-24 md:py-32" id="contact">
+    <section class="w-full bg-emerald-700 py-24 md:py-32 md:px-[5%]  2xl:px-[15%]" id="contact">
       <h2 class="text-4xl font-bold text-center text-white uppercase mb-16">Contactez-nous</h2>
+      <div class="w-full h-full px-5 flex flex-col gap-12 md:flex-row justify-evenly ">
+        <div class="min-w-fit md:order-2">
+          <h3 class="text-3xl text-white  text-center font-semibold mb-8 md:text-left">Nos reseaux</h3>
+          <ul class="w-full  space-y-6 ">
+            <li> 
+              <a class=" text-white text-xl flex items-center  transition-colors duration-300  hover:text-slate-800" href="#">
+                <i class="mr-4 text-3xl text-slate-800 inline-block fa-brands fa-square-facebook"></i>
+                <span>Junisyl_Company</span>
+              </a>
+            </li>
+            <li>
+              <a class=" text-white text-xl flex items-center  transition-colors duration-300  hover:text-slate-800" href="#">
+                <i class="mr-4 text-3xl text-slate-800 inline-block fa-brands fa-square-twitter"></i>
+                <span>@Junisyl-Company</span>
+              </a>
+            </li>
+            <li>
+              <a class=" text-white text-xl flex items-center  transition-colors duration-300  hover:text-slate-800" href="#">
+                <i class="mr-4 text-3xl text-slate-800 inline-block fa-brands fa-square-instagram"></i>
+                <span>JunisylCompany_Officiel</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form action="" method="post" class="w-full max-w-lg md:order-1">
+          <h3 class="text-3xl text-white text-center font-semibold mb-8 ">Formulaire</h3>
+          <div class=" mb-6 w-full">
+            <label for="name" class=" text-white text-lg inline-block w-full mb-2 ">Entrer votre nom :</label>
+            <input type="text" name="name" id="name" class="w-full py-2 px-4 rounded text-base focus:outline-none focus:ring-4 focus:ring-slate-700">
+          </div>
+          <div class=" mb-6 w-full">
+            <label for="email" class=" text-white text-lg inline-block w-full mb-2 ">Entrer votre nom :</label>
+            <input type="text" name="email" id="email" class="w-full py-2 px-4 rounded text-base focus:outline-none focus:ring-4 focus:ring-slate-700">
+          </div>
+          <div class=" mb-6 w-full">
+            <label for="subject" class=" text-white text-lg inline-block w-full mb-2 " >Selectionner l'objet :</label>
+            <select name="subject" id="subject" class="w-full py-2 px-4 h-10 rounded text-base">
+              <option value="0"   selected >Aucun</option>
+              <option value="1" >Objet 1</option>
+              <option value="2" >Objet 2</option>
+              <option value="3" >Objet 3</option>
+            </select>
+          </div>
+          <div class=" mb-8 w-full">
+            <label for="message" class=" text-white text-lg inline-block w-full mb-2 ">Entrer votre nom :</label>
+            <textarea name="message" id="message" class="w-full py-2 px-4 rounded text-base min-h-[150px] focus:outline-none focus:ring-4 focus:ring-slate-700"></textarea>
+          </div>
+          <div class="text-center ">
+            <button class=" w-fit h-fit px-4 py-2 rounded text-white  text-lg font-semibold bg-slate-800 md:row-span-1  transition-colors duration-300  hover:bg-slate-600" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+
     </section>
   </main>
-  <footer class=""></footer>
+  <footer class="w-full py-2 text-white bg-slate-950 text-sm text-center"><p>Copyright 2023 - YannLo Dev </p></footer>
 </body>
 </html>
